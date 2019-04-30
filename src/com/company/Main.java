@@ -6,10 +6,15 @@ import java.util.LinkedList;
 public class Main {
 
     public static void main(String[] args) {
+        //Permutate a string
+        Permutation permutation = new Permutation();
+        System.out.println(permutation.permute("ABCDEF", 0, "ABC".length()-1));
+
+        /*
         //Reverse String
         ReverseString reverseString = new ReverseString();
         System.out.println(reverseString.reverse("Hello World"));
-
+        */
 
         /*
         //Perfect squares
