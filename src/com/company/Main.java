@@ -6,10 +6,16 @@ import java.util.LinkedList;
 public class Main {
 
     public static void main(String[] args) {
+        int[] arr = new int[]{100, 80, 60, 70, 60, 75, 85};
+
+      SubArrays subArrays = new SubArrays();
+      System.out.println(Arrays.toString(subArrays.findSum(arr, 120)));
+
+        /*
         //Permutate a string
         Permutation permutation = new Permutation();
         System.out.println(permutation.permute("ABCDEF", 0, "ABC".length()-1));
-
+        */
         /*
         //Reverse String
         ReverseString reverseString = new ReverseString();
